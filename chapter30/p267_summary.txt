@@ -1,0 +1,7 @@
+the go statement starts a new goroutine, running concurrently
+channels are used to send values between goroutines
+a channel is created with make(chan string)
+the <- operator receives from a channel (when used before a channel value)
+the <- operator sends to a channel (when placed between the channel value and the value to be sent)
+the close function closes a channel
+the range statement reads all the values from a channel until its closed

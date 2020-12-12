@@ -1,0 +1,7 @@
+nil pointer dereferences will crash your program
+methods can guard against receiving nil values
+default behaviour can be provided for functions passed as arguments
+a nil slice is often interchangeable with an empty slice
+a nil map can be read from but not written to
+if an interface looks like its nil, be sure both type and value are nil
+nil isn't the only way to represent nothing

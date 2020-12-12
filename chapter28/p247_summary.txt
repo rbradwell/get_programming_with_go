@@ -1,0 +1,6 @@
+errors are values that interoperate with multiple return values and the rest of the GO language
+there is a great deal of flexibility in handling errors if you are willing to get creative
+custom error types are possible by satisfying the error interface
+the defer keyword helps clean up before a function returns
+type assertions can convert an interface to a concrete type or another interface
+don't panic - return an error instead

@@ -1,0 +1,6 @@
+Go has multiple return values.
+This provides a simple and consistent mechanism to errors to calling functions.
+If a function can return an error by convention it will use the last return value to do so.
+The caller should check if an error occurred immediately after calling the function.
+If an error occurs the err variable won't be nil, causing the program to print the error and exit immediately.
+The nonzero value passed to the os.Exit informs the operating system that an error occurred.

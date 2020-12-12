@@ -1,0 +1,11 @@
+/*
+Not all mutations require explicit use of a pointer.
+Go uses pointers behind the scenes for some of the built-in collections
+
+a previous lesson highlighted that maps aren't copied when assigned or passed as arguments.
+Maps are pointers in disguise, so pointing to a map is redundant. i.e. don't do this
+
+func demolish(planets *map[string]string)
+
+it's perfectly fine for the key or value of a map to be a pointer type, but there's rarely any reason to point to a map.
+*/

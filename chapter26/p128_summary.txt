@@ -1,0 +1,9 @@
+pointers store memory addresses.
+the address operator (&) provides the memory address of a variable
+a pointer can be dereferenced (&) to access or modify the value it points to
+pointers are types declared with a preceeding asterisk, such as *int
+use pointers to mutate values across function and method boundaries
+pointers are most useful with structures and arrays
+maps and slices use pointers behind the scenes
+interior pointers can point at fields inside structures without declaring those fields as pointers
+use pointers when it makes sense but dont overuse.

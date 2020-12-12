@@ -1,0 +1,31 @@
+
+/* 
+in go, functions, variables, and other identifiers that begin with uppercase letter are exported
+ and become available to other packages.
+ When a function accepts parameters of the same type e.g.
+ 
+ func Unix(sec int64, nsec int64) Time
+
+you only need to specify the type when it changes .e.g.
+
+func Unix(sec, nsec int64)
+
+Go can return multiple results from a function e.g.
+
+countdown, err := strconv.Atoi("10");
+
+The documentation declares the above fn accepts
+
+func Atoi(s string) (i int, err error)
+
+in function declarations you can list the result types without names:
+
+func Atoi(s string) (int, error)
+
+The declaration for Println 
+
+func Println(a ...interface{}) (n int, err error)
+
+The ... means its a vardic function i.e. pass in any number of arguments
+The interface{} is the empty interface type.  It allows any type.
+ */
